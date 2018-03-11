@@ -1,0 +1,70 @@
+.PopoverBody {
+    padding: 0;
+}
+
+.PopoverCard {
+    padding: 20px;
+    border-bottom: 1px solid #dadee7;
+    font-size: 14px;
+    font-weight: 500;
+    color:  #0e1a35;
+}
+
+.PopoverCard:last-child {
+    border: none;
+    text-align: center;
+}
+
+.PopoverTitle {
+    color:  #0e1a35;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.PopoverItem {
+    font-weight: 400;
+    font-size: 12px;
+    color: #8492af;
+}
+
+.popoverList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.PopoverCard.btn {
+    font-weight: 500;
+}
+
+.PopoverCard.btn-lg {
+    padding: 0.5rem 1.5rem;
+    border-radius: 24px;
+    font-size: 17px;
+}
+
+.PopoverCard.btn-primary {
+    background-color: #5584ff;
+}
+
+.btn-lg, .btn-group-lg > .btn{
+    padding: 0.2rem 1rem;
+}
+
+.PopoverInfo {
+    color: #8492af;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+.PopoverPhoto {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+button.btn.btn-lg.btn-primary:focus{
+    outline: none;
+    box-shadow: none;
+}

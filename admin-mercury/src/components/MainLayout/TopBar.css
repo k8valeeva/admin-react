@@ -1,0 +1,49 @@
+.TopNav{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 20px;
+    height: 85px;
+}
+
+.SidebarBtn{
+    display: flex;
+}
+
+.UserBtn{
+    display: flex;
+    align-items: center;
+}
+
+.avaImg{
+    border-radius: 100%;
+}
+
+.TopNav button{
+    font-size: 19px;
+}
+
+.TopNav button i:hover{
+    color: #5584ff;
+}
+
+.AddBtn{
+    background: #5584ff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.AddBtn:hover{
+    background: #6b86ce;
+}
+
+.SearchBtn{
+    margin-left: 15px;
+}
+
+.fa-caret-left{
+    color: #5584ff;
+    margin-right: 5px;
+}

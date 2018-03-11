@@ -1,0 +1,28 @@
+.LineChart .charts {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LChartCaption {
+    padding: 34px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #dadee7;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.LChartCaption:last-child {
+    border-bottom: none;
+}
+
+.ChartLine {
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+

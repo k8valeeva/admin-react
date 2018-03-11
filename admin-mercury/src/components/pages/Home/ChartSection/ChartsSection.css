@@ -1,0 +1,113 @@
+.ChartsSection {
+    background-color:  #fff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(132, 146, 175, 0.3);
+    min-height: 346px;
+}
+
+.ChartsHeader{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ChartsTitle{
+    font-size: 25px;
+    color: #8492af;
+}
+
+.ChartsBtn{
+    background: none;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    color: #8492af;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+.dropdown-menu.show{
+    border-radius: 20px;
+}
+
+.SelectPeriod,
+button.dropdown-toggle.btn.btn-secondary {
+    background: transparent;
+    color: #8492af;
+    border: 1px solid #8492af;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+
+.SelectPeriod:focus,
+button.dropdown-toggle.btn.btn-secondary:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.SelectPeriod{
+    padding: 8px 15px;
+}
+
+canvas.chartjs-render-monitor{
+    width: 290px;
+}
+
+.ChartLegend {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    min-width: 110px;
+    align-self: center;
+}
+
+.LegendItem {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 3px 0;
+}
+
+.LegendValue {
+    color: #ccc;
+    font: 500 16px Roboto;
+    margin-left: 10px;
+}
+
+.LegendColor {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.ChartContain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.ChartText {
+    color: #ccc;
+    font: 700 25px Roboto;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.ChartText.small {
+    font: 300 16px Roboto;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.ChartWrap{
+    display: flex;
+    justify-content: space-between;
+}

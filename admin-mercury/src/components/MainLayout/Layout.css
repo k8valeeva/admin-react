@@ -1,0 +1,35 @@
+.LeftBar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.close{
+    float: none!important;
+    opacity: 1!important;
+    font-weight: normal;
+}
+
+.LeftBar.open{
+    width: 200px;
+}
+
+.WrapperMain{
+    transition: margin-left .5s;
+    height: 100vh;
+    background: #f1f1f1;
+}
+
+.WrapperMain.open{
+    margin-left: 200px;
+}
+
+.MainContent{
+    padding: 25px 20px;
+    background: #f1f1f1;
+}

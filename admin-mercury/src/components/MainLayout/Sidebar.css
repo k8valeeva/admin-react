@@ -1,0 +1,47 @@
+.LeftBar{
+    width: 200px;
+    background: #0e1a35;
+    height: 100vh;
+}
+
+.SideLogo{
+    padding: 25px 40px;
+    height: 85px;
+}
+
+.SideBarList li{
+    display: flex;
+    border-top: 2px solid #0d172e;
+    cursor: pointer;
+}
+
+.SideBarList li:last-child{
+    border-bottom: 2px solid #0d172e ;
+}
+
+.SideBarList li:hover{
+    background: #122143;
+}
+
+.SideBarList li a{
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 21px;
+    color: #fff;
+    padding: 25px 30px;
+    border-left: 10px solid transparent;
+}
+
+.SideBarList li i{
+    margin-right: 15px;
+    color: #5584ff;
+}
+
+.SideBarList li a:hover,
+.SideBarList li a.activeNav{
+    border-left: 10px solid #5584ff;
+    background-color: #122143;
+    width: 100%;
+}

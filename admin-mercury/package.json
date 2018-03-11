@@ -1,0 +1,43 @@
+{
+  "name": "admin-mercury",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "4.0.0-beta.3",
+    "carbon-components": "^8.16.8",
+    "carbon-components-react": "^5.29.5",
+    "carbon-icons": "^6.3.2",
+    "chart.js": "^2.7.1",
+    "express": "^4.16.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.20.0",
+    "moment": "^2.20.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-beautiful-dnd": "^5.0.0",
+    "react-big-calendar": "^0.17.0",
+    "react-booking-calendar": "^1.0.3",
+    "react-bootstrap-table": "^4.3.1",
+    "react-circular-progressbar": "^0.8.0",
+    "react-chartjs-2": "^2.7.0",
+    "react-dom": "^16.2.0",
+    "react-highcharts": "^16.0.2",
+    "react-key-index": "^0.1.1",
+    "react-responsive": "^4.0.5",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "reactstrap": "^5.0.0-alpha.4",
+    "shortid": "^2.2.8",
+    "underscore": "^1.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:4000"
+}

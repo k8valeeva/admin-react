@@ -1,0 +1,21 @@
+.WorkCaption {
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+
+.WorkCaption a{
+    color: #0e1a35;
+    font-size: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.WorkCaption a .hvr-icon-forward:before {
+    content: '\f105';
+    right: 5px;
+    color: #8492af;
+}
+
+.Workflow.amount {
+    color: #8492af;
+}

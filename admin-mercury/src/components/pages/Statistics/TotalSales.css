@@ -1,0 +1,56 @@
+.Progressbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.BarItem {
+    width: 50%;
+    margin-right: 25px;
+}
+
+.BarItem .CircularProgressbar-path {
+    transform: rotate(180deg);
+    transform-origin: center center;
+}
+
+.BarItem-blue .CircularProgressbar-path {
+    stroke: #5484ff;
+}
+
+.BarItem-blue .CircularProgressbar-text {
+    fill: #5484ff;
+}
+
+.BarItem-violet .CircularProgressbar-path {
+    stroke: #aa5fb9;
+}
+
+.BarItem-violet .CircularProgressbar-text {
+    fill: #aa5fb9;
+}
+
+.BarItem-pink .CircularProgressbar-path {
+    stroke: #f83c7b;
+}
+
+.BarItem-pink .CircularProgressbar-text {
+    fill: #f83c7b;
+}
+
+.description{
+    color: #8492af;
+}
+
+.description p {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.description p:last-child {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 16px;
+}

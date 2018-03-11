@@ -1,0 +1,106 @@
+.Calendar.Container {
+    text-align: center;
+}
+
+.rbc-calendar {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.rbc-month-view {
+    display: block;
+    position: relative;
+    border: 1px solid #ddd;
+    width: 100%;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none;
+    height: 100%;
+    background-color:#fff;
+}
+
+.rbc-month-row {
+    height: 100px;
+}
+
+.rbc-time-view {
+    background-color:#fff;
+}
+
+.rbc-agenda-view {
+    background-color: #fff;
+}
+
+.rbc-header {
+    font-family: "Roboto", sans-serif;
+    color: #0e1a35;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+}
+
+.rbc-event {
+    border-radius: 0;
+    border-left: 3px solid #5584ff;
+    background-color: #f6f7fa;
+    padding: 5px 0 5px 5px;
+}
+
+.rbc-event-content {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #0e1a35;
+}
+
+.rbc-event.rbc-selected {
+    background-color: #f6f7fa;
+}
+
+.rbc-row-segment {
+    padding: 0 1px 1px 2px;
+}
+
+.rbc-date-cell {
+    text-align: left;
+    padding: 5px 0 5px 10px;
+}
+
+.rbc-toolbar-label {
+    color: #0e1a35;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.rbc-event-content {
+    text-align: left;
+}
+
+.booking-calendar.header {
+    width: 100%;
+    background-color:  #5584ff !important;
+    border: none !important;
+    z-index: 0;
+}
+
+
+.booking-calendar.week {
+    border-right: 1px solid  #5584ff !important;
+    border-top: 1px solid  #5584ff !important;
+}
+
+
+.booking-calendar.week.day-box .day {
+    background-color: #fff !important;
+    color:  #5584ff !important;
+    border-right: 1px solid  #5584ff !important;
+}
+
+
+.booking-calendar.week.day-box:last-child .day {
+    border-right: none !important;
+}

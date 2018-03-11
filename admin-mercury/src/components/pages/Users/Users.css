@@ -1,0 +1,52 @@
+.UsersHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.UsersCaption{
+    color: #0e1a35;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.UsersCaption span{
+    color: #8492af;
+    margin-left: 5px;
+}
+
+.ActivitySelect{
+    background: none;
+    border: 1px solid #8492af;
+    border-radius: 25px;
+    color: #8492af;
+    padding: 7px 15px;
+    outline: none;
+}
+
+.ActivitySelect:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.NameInfo{
+    display: flex;
+}
+
+.NameInfo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+tbody {
+    background: #fff;
+    font-size: 18px;
+}
+
+.styleWork, th{
+    font-size: 14px;
+    color: #8492af;
+    line-height: 25px;
+}

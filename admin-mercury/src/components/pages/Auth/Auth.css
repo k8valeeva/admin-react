@@ -1,0 +1,49 @@
+.AuthWrap{
+    text-align: center;
+}
+
+.AuthWrap h2{
+    padding: 4vmax 0;
+    color: #8492af;
+    font: 300 2.5vmax/15px Roboto, sans-serif;
+}
+
+.AuthWrap h2 span{
+    color: #5584ff;
+    margin-left: 20px;
+}
+
+.AuthForm{
+    padding: 0 20% 5%;
+}
+
+.RegPadding{
+    padding-top: 5%;
+}
+
+.AuthForm input{
+    padding: 4% 15%;
+    border: none;
+    border-bottom: 1px solid #d4d9e3;
+    font-size: 21px;
+    outline: none;
+    color: #8492af;
+    background: none;
+}
+
+.AuthForm input::placeholder{
+    font-size: 21px;
+    color: #8492af;
+}
+
+.SignBtn{
+    font-size: 21px;
+    color: #fff;
+    background: #5584ff;
+    border: none;
+    outline: none;
+    line-height: 70px;
+    padding: 0 25%;
+    border-radius: 35px;
+    margin-top: 10%;
+}

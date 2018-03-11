@@ -1,0 +1,131 @@
+h2.UserName {
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.Content{
+    background-color: #fff;
+    border: 1px solid rgba(132, 146, 175, 0.3);
+}
+
+.ContentHeader{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dadee7;
+}
+
+.HeaderCaption {
+    color: #0e1a35;
+    font-size: 20px;
+}
+
+.badge {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    font-size: 18px;
+    margin-left: 7px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+}
+
+.badge-primary {
+    background-color: #5384ff;
+}
+
+.badge-secondary {
+    background-color: #f83c7b!important;
+}
+
+.ContentItem {
+    padding: 20px 20px 21px;
+    border-bottom: 1px solid #dadee7;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.ContentItem.active {
+    background-color: #f4f5f8;
+}
+
+.ContentItem.users-message {
+    padding: 17px 20px 13px;
+}
+
+
+.ContentItem.users-message.ItemTime {
+    margin-left: 3px;
+    vertical-align: text-top;
+}
+
+.ContentItem.users-message.UserItem {
+    vertical-align: text-top;
+}
+
+.ItemPhoto {
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.TitleItem {
+    color: #0e1a35;
+    font-size: 15px;
+}
+
+.ItemMessage {
+    color: #0e1a35;
+    font-size: 14px;
+}
+
+.ItemMessage p{
+    margin-bottom: 7px;
+    font-size: 13px;
+}
+
+.fa{
+    color: #8492af;
+    margin-right: 3px;
+}
+
+.UserItem a{
+    color: #0e1a35;
+}
+
+.ItemTime span{
+    font-size: 14px;
+    color: #8492af;
+    margin-left: 5px;
+}
+
+.ItemTime span.active {
+    color: #f83c7b;
+}
+
+.ItemTime span.fa {
+    font-size: 15px;
+    vertical-align: middle;
+    margin-left: -2px;
+}
+
+.ItemAction {
+    color: #8492af;
+}
+
+.content-item-project {
+    color: #0e1a35;
+}
+
+.ContentItem.row {
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
